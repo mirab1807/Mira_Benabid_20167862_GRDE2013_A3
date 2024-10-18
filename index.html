@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.30/fullpage.css" integrity="sha512-miZpHgVY+1mPyIVH1usVb0d7jLN4JLbUd8I1g/zDyvYbBOm4wZ0enJr26Z4pR4xI0T+YkrT2EBhWmxyts2QnVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Porsche</title>
+</head>
+<body>
+    <!--navigation bar-->
+    <div id="nav">
+        <a class="active" data-menuanchor="mySwiper" href="#1">Home</a>
+        <a data-menuanchor="nine-nine-two" href="#2">992</a>
+        <a data-menuanchor="nine-one-one" href="#3">911</a>
+        <a data-menuanchor="events" href="#4">Events</a>
+    </div>
+
+    <div id="fullpage">
+    <!-- Slider main container -->
+        <div class="section swiper mySwiper">
+            <!-- Slides -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/yellow-cars.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/boat-cars.jpg">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <!--div for porsche 992-->
+        <div class="section nine-nine-two">
+            <img src="images/green-porsche.png">
+            <div class="section-text">
+                <p>information about the 992</p>
+            </div>
+        </div>
+        <!--div for porsche 911-->
+        <div class="section nine-one-one">
+            <img src="images/pink-porsche.png">
+            <div class="section-text">
+                <h2>The 911</h2>
+                <p>With a sound that makes your heart beat faster. 
+                    Feels and sounds close to the racetrack. With the 911 GT3, 
+                    it’s not only the driving experience that gives you that 
+                    authentic motorsport feeling – it’s the roar of its 
+                    thoroughbred performance engine.
+                </p>
+            </div>
+        </div>
+        <div class="section events">
+            <div class="event-header">
+                <h1>Events</h1>
+            </div>
+            <div class="event-grid">
+                <div class="event-image">
+                    <img src="images/coloured.jpg">
+                    <p class="image-text"><span class="date">27</span> September</p>
+                </div>
+                <div class="event-image">
+                    <img src="images/red-cars.jpg">
+                    <p class="image-text"><span class="date">5</span> October</p>
+                </div>
+                <div class="event-image">
+                    <img src="images/white-cars.jpg">
+                    <p class="image-text"><span class="date">31</span> October</p>
+                </div>
+                <div class="event-image">
+                    <img src="images/boat-cars.jpg">
+                    <p class="image-text"><span class="date">23</span> November</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.30/fullpage.min.js" integrity="sha512-XjHDYXqFXd3cWle8uxMnQFVcpjzm+mWZfJApBAyREtai0v/jJy9Na+PJlmrnaum7qb4B3BnwKAZd47piZRvoZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
