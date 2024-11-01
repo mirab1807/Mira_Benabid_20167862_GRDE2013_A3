@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 
+/* navigation styling */
 #nav{
     background-color: white;
     height: 50px;
@@ -53,11 +54,25 @@ body{
   }
 
 
-/* div */
-.nine-nine-two{
+/* div 718 */
+.seven-one-eight{
     background-color: #939f89;
 }
 
+/* scroll animation for text */
+.animate-on-scroll{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.4s ease-out;
+    transition-delay: 0.2s;
+}
+
+.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* div 911 */
 .nine-one-one{
     background-color: #d6bec6;
 }
@@ -78,6 +93,7 @@ body{
     min-width: 400px;
 }
 
+/* events styling */
 .events {
     background-color: black;
 }
